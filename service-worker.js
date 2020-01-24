@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/miceluckymoney/precache-manifest.d4ab7de681eaf33eb4895246627a03f9.js"
+  "/miceluckymoney/precache-manifest.4a9316d9d9adacd774e9ec4d34ca7114.js"
 );
 
 workbox.clientsClaim();
