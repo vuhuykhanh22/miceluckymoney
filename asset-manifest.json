@@ -1,7 +1,7 @@
 {
   "main.css": "/miceluckymoney/static/css/main.9ed3d249.chunk.css",
-  "main.js": "/miceluckymoney/static/js/main.eb0f848b.chunk.js",
-  "main.js.map": "/miceluckymoney/static/js/main.eb0f848b.chunk.js.map",
+  "main.js": "/miceluckymoney/static/js/main.cffecbd8.chunk.js",
+  "main.js.map": "/miceluckymoney/static/js/main.cffecbd8.chunk.js.map",
   "static/css/1.b008c538.chunk.css": "/miceluckymoney/static/css/1.b008c538.chunk.css",
   "static/js/1.77d41e2d.chunk.js": "/miceluckymoney/static/js/1.77d41e2d.chunk.js",
   "static/js/1.77d41e2d.chunk.js.map": "/miceluckymoney/static/js/1.77d41e2d.chunk.js.map",
@@ -32,6 +32,6 @@
   "static/css/main.9ed3d249.chunk.css.map": "/miceluckymoney/static/css/main.9ed3d249.chunk.css.map",
   "static/css/1.b008c538.chunk.css.map": "/miceluckymoney/static/css/1.b008c538.chunk.css.map",
   "index.html": "/miceluckymoney/index.html",
-  "precache-manifest.525891034a9a3e38e530528e4c8e2e9d.js": "/miceluckymoney/precache-manifest.525891034a9a3e38e530528e4c8e2e9d.js",
+  "precache-manifest.47fc4e84a3bc1512664a8beab0d56e60.js": "/miceluckymoney/precache-manifest.47fc4e84a3bc1512664a8beab0d56e60.js",
   "service-worker.js": "/miceluckymoney/service-worker.js"
 }
