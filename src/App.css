@@ -1,6 +1,6 @@
 .ui-layout {
   background:url(Images/newyear-background.jpg) center center;
-  height: 2050px;
+  height: 1750px;
   background-size: cover;
 }
 
@@ -88,7 +88,7 @@
     display: block;
     background-color: transparent;
     height: auto;
-    width: 250px;
+    width: 200px;
     cursor: pointer;
 }
 
@@ -149,8 +149,6 @@
       transform: rotateY(-360deg);
     }
   }
-
-
 
 @-webkit-keyframes App-logo-spin {
   from { -webkit-transform: rotate(0deg) translateX(80px) rotate(0deg); }
@@ -247,7 +245,7 @@
   }
 
   .mice {
-    width: 200px;
+    width: 180px;
   }
 }
 
