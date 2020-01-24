@@ -12,7 +12,7 @@ export default class LuckyMoney extends Component {
             show: false,
             gallery: null,
             open: false,
-            array: ['gus','rattata','gonzales','mickey','rhino', 'tuffy', 'pikachu', 'ratatouille', 'jag', 'jerry', 'perla', 'timothy', 'minie','stuart','white'],
+            array: ['mickey','rattata','gus','gonzales','rhino', 'tuffy', 'pikachu', 'ratatouille', 'jag', 'jerry', 'perla', 'timothy', 'minie','stuart','white'],
             priceArray: ['500k', '200k', '200k', '100k', '100k', '100k', '100k', '50k', '50k', '50k', '50k', '50k']
         }
     }
@@ -68,13 +68,13 @@ export default class LuckyMoney extends Component {
                 : 'mice'} /></div>
         });
         return (
-            <div className='row'>
+            <div className='row ml-4'>
                 {images}
                 {this.state.show ?  
                     <div className = "ui-notice">  
                             <Modal.Dialog className={this.state.addClass ? " loading" : ''}>
                                 <Modal.Body className='text-center'>
-                                    <p>Chúc mừng bạn đã nhận được {this.state.price} từ bao lì xì</p>
+                                    <p>Chúc mừng bạn đã nhận được {this.state.price} từ bạn chuột này</p>
                                     <Image src={require('../Images/happy-' + this.state.gallery + '.gif')} height={300} alt="happy-gif" />
                                 </Modal.Body>
                                 <Modal.Footer>

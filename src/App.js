@@ -28,7 +28,7 @@ class App extends Component {
           </div>
           <div className='ui-title text-center pt-4 mb-5'>
           <Image src={require('./Images/2020.gif')} className='firework' />
-          <h2 className= 'mt-4'>Bắt Chuột Đón Lộc</h2>
+          <h1 className= 'mt-4'>Bắt Chuột Rước Lộc</h1>
           </div>
           <div className='ui-content'>
             <div className='container'>

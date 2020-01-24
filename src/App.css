@@ -12,7 +12,7 @@
   margin-top:-150px;
 }
 
-.ui-title h2 {
+.ui-title h1 {
   margin: 0;
   color: #FFF468;
 }
@@ -88,7 +88,7 @@
     display: block;
     background-color: transparent;
     height: auto;
-    width: 190px;
+    width: 200px;
     cursor: pointer;
 }
 
