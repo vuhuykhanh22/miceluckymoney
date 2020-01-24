@@ -1,0 +1,264 @@
+.ui-layout {
+  background:url(Images/newyear-background.jpg) center center;
+  height: 2050px;
+  background-size: cover;
+}
+
+.firework.right {
+  transform: scaleX(-1);
+}
+
+.ui-title {
+  margin-top:-150px;
+}
+
+.ui-title h2 {
+  margin: 0;
+  color: #FFF468;
+}
+
+.ui-title h3 {
+  color: #FFF468;
+}
+
+.ui-logo .firework {
+  height: 180px;
+  margin-left:150px;
+  margin-right: 150px;
+}
+
+.ui-envelope {
+  position: relative;
+  background: #FF0D32;
+  height: 300px;
+  cursor: pointer; 
+}
+
+.ui-envelope::after {
+  position: absolute;
+  content:'';
+  border:1px solid #FFF468;
+  border-radius: 20px ;
+  top:30%;
+  width: 100%;
+}
+
+.ui-envelope::before {
+  position: absolute;
+  content:'';
+  border: 20px solid #FFF468;
+  border-radius: 50%;
+  top:70px;
+  left: 110px;
+}
+
+.ui-price {
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+}
+
+.ui-price span {
+  font-size: 32px;
+  color:#FEFCC0;
+  font-weight: bold;
+}
+
+.modal {
+  animation-name: displayOpacity ;
+  animation-duration: 2.2s;
+}
+
+.modal-content {
+  background: #FF0D32;
+  border:2px solid #FFF468;
+}
+
+.modal-footer {
+  border-top-color: transparent;
+}
+
+.ui-notice p {
+  font-size: 32px;
+  text-align: center;
+  color: #FFF468;
+}
+
+.mice {
+    display: block;
+    background-color: transparent;
+    height: auto;
+    width: 250px;
+    cursor: pointer;
+}
+
+.mice.circle {
+  animation: App-logo-spin 6s;
+  -webkit-animation: App-logo-spin 6s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.mice.square {
+  animation: App-logo-spin-1 5s;
+  -webkit-animation: App-logo-spin-1 5s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.mice.walk {
+  animation: App-logo-spin-2 2.0s;
+  -webkit-animation: App-logo-spin-2 2.0s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.mice.spinner {
+    -webkit-animation-name: spinner;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 3s;
+
+    animation-name: spinner;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+
+  .mice.spinner:hover {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+  }
+
+/* spin after click */
+  /* all other browsers */
+  @keyframes spinner {
+    from {
+      -moz-transform: rotateY(0deg);
+      -ms-transform: rotateY(0deg);
+      transform: rotateY(0deg);
+    }
+    to {
+      -moz-transform: rotateY(-360deg);
+      -ms-transform: rotateY(-360deg);
+      transform: rotateY(-360deg);
+    }
+  }
+
+
+
+@-webkit-keyframes App-logo-spin {
+  from { -webkit-transform: rotate(0deg) translateX(80px) rotate(0deg); }
+  to   { -webkit-transform: rotate(360deg) translateX(40px) rotate(-360deg); }
+}
+
+@-webkit-keyframes App-logo-spin-1 {
+  from { -webkit-transform: rotate(0deg) translateY(180px) rotate(180deg); }
+  to   { -webkit-transform: rotate(-180deg) translateY(100px) rotate(180deg); }
+}
+
+@-webkit-keyframes App-logo-spin-2 {
+  
+  from { 
+    -webkit-transform: translate(20%,-40%);
+    transform: translateY(10%,0%);}
+  to   {   }
+}
+
+@keyframes displayOpacity {
+  0% {
+     opacity:0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+     opacity: 0.0;
+  }
+  75% {
+    opacity: 0.4;
+  }
+  90% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+ }
+}
+
+/* @-webkit-keyframes App-logo-spin-1 {
+  from { -webkit-transform: rotate(0deg) translateY(180px) rotate(180deg); }
+  to   { -webkit-transform: rotate(-180deg) translateY(100px) rotate(180deg); }
+} */
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+.ui-close-btn, .ui-close-btn:hover  {
+  background: #C8151B;
+  color: #FFF468;
+  border-color: transparent;
+}
+
+@media (max-width:768px) {
+  .ui-layout {
+    height: 900px;
+  }
+
+  .ui-title {
+    margin-top: 0;
+    padding-top: 0!important;
+  }
+  
+  .ui-logo .firework {
+    display: inline-block;
+    height: 100px;
+    margin: 0;
+  }
+
+  .ui-envelope {
+    height: 200px;
+  }
+
+  .ui-price {
+    left:50px;
+    top:100px;
+  }
+
+  .ui-envelope::before {
+    position: absolute;
+    content:'';
+    border: 20px solid #FFF468;
+    border-radius: 50%;
+    top:40px;
+    left: 55px;
+  }
+
+  .mice {
+    width: 200px;
+  }
+}
+
+@media (max-width:576px) {
+  .ui-layout {
+    height: auto;
+  }
+  
+  .mice {
+    width: 160px;
+  }
+}
+
+
