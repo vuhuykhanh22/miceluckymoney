@@ -1,7 +1,7 @@
 {
-  "main.css": "/miceluckymoney/static/css/main.b1c99bb2.chunk.css",
-  "main.js": "/miceluckymoney/static/js/main.6a5bbc61.chunk.js",
-  "main.js.map": "/miceluckymoney/static/js/main.6a5bbc61.chunk.js.map",
+  "main.css": "/miceluckymoney/static/css/main.9ed3d249.chunk.css",
+  "main.js": "/miceluckymoney/static/js/main.eb0f848b.chunk.js",
+  "main.js.map": "/miceluckymoney/static/js/main.eb0f848b.chunk.js.map",
   "static/css/1.b008c538.chunk.css": "/miceluckymoney/static/css/1.b008c538.chunk.css",
   "static/js/1.77d41e2d.chunk.js": "/miceluckymoney/static/js/1.77d41e2d.chunk.js",
   "static/js/1.77d41e2d.chunk.js.map": "/miceluckymoney/static/js/1.77d41e2d.chunk.js.map",
@@ -29,9 +29,9 @@
   "static/media/tuffy.png": "/miceluckymoney/static/media/tuffy.e75d7ab8.png",
   "static/media/white.png": "/miceluckymoney/static/media/white.184d1dd7.png",
   "static/media/2020.gif": "/miceluckymoney/static/media/2020.0551237d.gif",
+  "static/css/main.9ed3d249.chunk.css.map": "/miceluckymoney/static/css/main.9ed3d249.chunk.css.map",
   "static/css/1.b008c538.chunk.css.map": "/miceluckymoney/static/css/1.b008c538.chunk.css.map",
-  "static/css/main.b1c99bb2.chunk.css.map": "/miceluckymoney/static/css/main.b1c99bb2.chunk.css.map",
   "index.html": "/miceluckymoney/index.html",
-  "precache-manifest.4a9316d9d9adacd774e9ec4d34ca7114.js": "/miceluckymoney/precache-manifest.4a9316d9d9adacd774e9ec4d34ca7114.js",
+  "precache-manifest.525891034a9a3e38e530528e4c8e2e9d.js": "/miceluckymoney/precache-manifest.525891034a9a3e38e530528e4c8e2e9d.js",
   "service-worker.js": "/miceluckymoney/service-worker.js"
 }

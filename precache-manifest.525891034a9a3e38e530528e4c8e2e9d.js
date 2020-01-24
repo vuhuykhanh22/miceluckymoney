@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/miceluckymoney/static/media/jerry.a5471f0b.png"
   },
   {
-    "revision": "6a5bbc6178f5cabdadde",
-    "url": "/miceluckymoney/static/css/main.b1c99bb2.chunk.css"
+    "revision": "eb0f848bee2c135247d3",
+    "url": "/miceluckymoney/static/css/main.9ed3d249.chunk.css"
   },
   {
     "revision": "0551237d4fa31913a465abf4d8e67a42",
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "/miceluckymoney/static/media/jag.c39721f0.png"
   },
   {
-    "revision": "6a5bbc6178f5cabdadde",
-    "url": "/miceluckymoney/static/js/main.6a5bbc61.chunk.js"
+    "revision": "eb0f848bee2c135247d3",
+    "url": "/miceluckymoney/static/js/main.eb0f848b.chunk.js"
   },
   {
     "revision": "f4d4b1403000880d6aa1de64003bf215",
@@ -108,7 +108,7 @@ self.__precacheManifest = [
     "url": "/miceluckymoney/static/css/1.b008c538.chunk.css"
   },
   {
-    "revision": "338bac14215eb47391d0631f4e28fef1",
+    "revision": "baeb6480e7fbd4f51048f8664d00dde4",
     "url": "/miceluckymoney/index.html"
   }
 ];
