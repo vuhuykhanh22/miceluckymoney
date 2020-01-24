@@ -13,7 +13,7 @@ export default class LuckyMoney extends Component {
             gallery: null,
             open: false,
             array: ['mickey','rattata','gus','gonzales','rhino', 'tuffy', 'pikachu', 'ratatouille', 'jag', 'jerry', 'perla', 'timothy', 'minie','stuart','white'],
-            priceArray: ['500k', '200k', '200k', '100k', '100k', '100k', '100k', '50k', '50k', '50k', '50k', '50k']
+            priceArray: ['500k','200k','200k', '200k','100k','100k', '100k', '100k', '100k','50k', '50k', '50k', '50k', '50k', '50k']
         }
     }
 
