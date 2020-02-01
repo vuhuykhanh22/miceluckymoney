@@ -68,7 +68,7 @@ export default class LuckyMoney extends Component {
                 : 'mice'} /></div>
         });
         return (
-            <div className='row ml-4'>
+            <div className='row'>
                 {images}
                 {this.state.show ?  
                     <div className = "ui-notice">  

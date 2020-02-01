@@ -245,6 +245,7 @@
   }
 
   .mice {
+    margin:auto;
     width: 180px;
   }
 }
@@ -255,7 +256,8 @@
   }
   
   .mice {
-    width: 160px;
+    width:160px;
+    margin:auto;
   }
 }
 
